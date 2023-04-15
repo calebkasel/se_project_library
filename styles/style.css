@@ -24,8 +24,6 @@
 }
 
 .logo {
-  display: flex;
-  justify-content: flex-start;
   max-width: 196px;
   height: 60px;
 }
@@ -36,6 +34,7 @@
   list-style-type: none;
   display: flex;
   column-gap: 20px;
+  padding-left: 0;
 }
 
 .nav__link {
@@ -403,6 +402,10 @@
   margin: 0 0 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -449,7 +452,11 @@
 }
 
 .footer__list-item {
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin: 0;
 }
 
 .footer__column-heading {
